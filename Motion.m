@@ -1,15 +1,7 @@
-%% Example of using ICT class to interface with KUKA iiwa
 
-% First start the "ICTServer" on the smartPad
-% Then run the following script in Matlab
-
-% Note you have 60 seconds to connect to ICTServer after starting the
-% application on the smartPad.
-
-
-% Copyright: Mohammad SAFEEA, 02-Oct-2019
-
-close all;clear;clc;
+close all;
+clear;
+clc;
 warning('off')
 %% Create the robot object
 ip='172.31.1.147'; % The IP of the controller
